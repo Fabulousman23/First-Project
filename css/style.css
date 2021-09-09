@@ -145,7 +145,7 @@ button, .button {
 
 
 /* M e d i a     Q u e r i e s  */
-@media screen and (max-width: 600px) {
+@media all and (max-width: 600px) {
     .helloworld h1 {
       font-size: 50px;
     }
@@ -153,7 +153,13 @@ button, .button {
         width: 400px;
       }
   }
-@media screen and (max-width: 1000px) {
+
+  @media all and (max-width: 700px) and (min-width: 610px){
+    #border {
+      margin-top: 700px;
+    }
+}
+@media all and (max-width: 1000px) {
     .berlin-illustration {
       width: 500px;
     }
