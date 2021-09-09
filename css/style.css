@@ -114,12 +114,14 @@ button, .button {
 }
 
 .footer-page {
+    border-top: 1px solid lightgray;
     display: flex;
     flex-direction: column;
     text-align: center;
     clear: both;
-    margin: 20px;
+    margin:  120px 20px 20px 20px;
 }
+
 
 .page-header {
     display: flex;
@@ -143,7 +145,19 @@ button, .button {
 
 
 /* M e d i a     Q u e r i e s  */
- 
+@media screen and (max-width: 600px) {
+    .helloworld h1 {
+      font-size: 50px;
+    }
+    .berlin-illustration {
+        width: 400px;
+      }
+  }
+@media screen and (max-width: 1000px) {
+    .berlin-illustration {
+      width: 500px;
+    }
+  }
 @media all and (max-width: 500px) {
     a {
         font-size: 10px;
