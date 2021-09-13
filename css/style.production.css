@@ -187,7 +187,9 @@ button, .button {
     display: inline-block;
     margin-left: 20px;
 }
-
+#bottom {
+    margin-top: 550px;
+}
 
 /* M e d i a     Q u e r i e s  */
 @media all and (max-width: 600px) {
@@ -201,7 +203,7 @@ button, .button {
 
   @media all and (min-width: 600px){
     #border {
-      margin-top: 800px;
+      margin-top: 900px;
     }
 }
 @media all and (max-width: 1000px) {
