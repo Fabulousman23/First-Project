@@ -149,6 +149,14 @@ button, .button {
         margin: 0 auto;
 }
 
+input {
+    border: 1px solid black;
+}
+
+.contact_info {
+    padding: 40px;
+}
+
 .footer-page {
     border-top: 1px solid lightgray;
     display: -webkit-box;
