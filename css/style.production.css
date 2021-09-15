@@ -213,7 +213,7 @@ input {
 }
 @media all and (max-width: 500px) {
     .berlin-illustration {
-      width: 200px;
+      width: 30%;
     }
   }
 @media all and (max-width: 500px) {
