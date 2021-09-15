@@ -218,19 +218,16 @@ input {
     .helloworld h1 {
       font-size: 50px;
     }
-    .berlin-illustration {
-        width: 250px;
-      }
   }
 
-  @media all and (max-width: 700px) and (min-width: 610px){
+  @media all and (min-width: 600px){
     #border {
       margin-top: 900px;
     }
 }
 @media all and (max-width: 1000px) {
     .berlin-illustration {
-      width: 500px;
+      width: 200px;
     }
   }
 @media all and (max-width: 500px) {

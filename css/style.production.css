@@ -211,7 +211,7 @@ input {
       margin-top: 900px;
     }
 }
-@media all and (max-width: 700px) {
+@media all and (max-width: 2000px) {
     .berlin-illustration {
       width: 200px;
     }
