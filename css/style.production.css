@@ -204,9 +204,6 @@ input {
     .helloworld h1 {
       font-size: 50px;
     }
-    .berlin-illustration {
-        width: 250px;
-      }
   }
 
   @media all and (min-width: 600px){
@@ -214,9 +211,9 @@ input {
       margin-top: 900px;
     }
 }
-@media all and (max-width: 1000px) {
+@media all and (max-width: 600px) {
     .berlin-illustration {
-      width: 500px;
+      width: 250px;
     }
   }
 @media all and (max-width: 500px) {
