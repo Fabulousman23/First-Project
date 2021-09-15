@@ -220,14 +220,14 @@ input {
     }
   }
 
-  @media all and (min-width: 600px){
+  @media all and (min-width: 600px) {
     #border {
       margin-top: 900px;
     }
 }
-@media all and (max-width: 1000px) {
+@media all and (max-width: 2500px) {
     .berlin-illustration {
-      width: 200px;
+      width: 300px;
     }
   }
 @media all and (max-width: 500px) {

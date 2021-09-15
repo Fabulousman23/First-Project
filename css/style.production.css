@@ -206,7 +206,7 @@ input {
     }
   }
 
-  @media all and (min-width: 600px){
+  @media all and (min-width: 600px) {
     #border {
       margin-top: 900px;
     }
