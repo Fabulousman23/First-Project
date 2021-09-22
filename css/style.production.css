@@ -346,7 +346,7 @@ input {
         grid-column: auto / auto;
         grid-row: auto/auto;
     }
-
+    
     h1 {
         font-size: 22px;
     }
