@@ -215,9 +215,19 @@ input {
 }
 
   /* M e d i a     Q u e r i e s  */
-    @media all and (max-width: 600px) {
+    @media all and (max-width: 550px) {
+        .navigation-list {
+            display: flex;
+            flex-direction: column;
+        }
+        .portrait_of_me {
+            width: 390px;
+        }
+    }
+
+    @media all and (max-width: 590px) {
     .helloworld h1 {
-      font-size: 50px;
+      font-size: 55px;
     }
   }
 
@@ -232,9 +242,6 @@ input {
     }
   }
 @media all and (max-width: 500px) {
-    a {
-        font-size: 10px;
-    }
     .grid {
             grid-template-columns: 1fr;
     }
@@ -251,7 +258,7 @@ input {
         grid-gap: 10px;
     }
     .grid-item:last-child {
-        grid-column: auto / auto;
+        grid-column: auto/auto;
         grid-row: auto/auto;
     }
 
